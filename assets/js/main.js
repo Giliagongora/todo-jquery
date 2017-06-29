@@ -1,12 +1,26 @@
+var $input = $('input');
 
- $(document).ready(function() {
 
- 	    $("#clave").keypress(function(e) {
+$(document).ready(function() {
+
+
+ 	    $('$input').keypress(function(e) {
        if(e.which == 13) {
-          // Acciones a realizar, por ej: enviar formulario.
-          $('##doing').text("hola");
+           //$('#listaTareas').html(localStorage.getItem('listaTareas'));
+           var message = $('#sumaTareas').val();
+           if( $input.val() == ""){
+           	alert("Debes escribir")
+           }else{
+           	$('.work').append(message);
+           }
        }
     });
   		
   });
 
+
+/*
+$("#btn2").click(function(){
+    $("ol").append("<li>Appended item</li>");
+});
+*/

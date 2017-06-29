@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -22,27 +22,30 @@
 	<section class="areaTareas">
 		<div class="container">
 			<div class="row" >
-				<div class="col s10 offset-s1">
+				<form class="col s10 offset-s1">
 					<div id="backbase">
-						
-						<input type="text" class="input-field" placeholder="   Ingresa la tarea" class="center-align" id="tarea">
-						<div id="todo">
+						<input type="text" placeholder="Ingresa la tarea" class="center-align" class="form-control" id="todo-list-item">
+						<div id="sumaTareas">
 							<h6>To Do Items</h6>
+							<ul>
+							  <li id="work"></li>
+							</ul>
 						<div id="doing"></div>
+
 						</div>
 						<div id="complete">
 						<div id="did"></div>
 							<h6>Complete Items</h6>
 						</div>
-					</div>
-				</div>			
-			</div>	
-		</div>	
+				</form>
+			</div>			
+		</div>		
 	</section>
 
 
 	<!-- script -->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="//code.jquery.com/jquery-3.1.0.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
