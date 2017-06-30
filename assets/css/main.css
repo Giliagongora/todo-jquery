@@ -7,7 +7,11 @@ html{
 	padding: 0px;
 }
 body{
-	background-color: #e8e8e8;
+/*	background-color: rgba(255,171,0,0.5); */
+	background-image: url(../img/background-1915346__340.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	width: 100%;
 }
 nav {
 	padding-bottom: 1%;
@@ -19,7 +23,7 @@ nav {
 	color: black;
 }
 #backbase{
-	background-color: white;
+	background-color: rgba(255,255,255,0.7);
 	width: 100%;
 	height: 40%;
 	padding-bottom: 5%;
